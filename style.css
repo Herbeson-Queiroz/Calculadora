@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    background-image: linear-gradient(45deg, black, crimson);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#operacoes {
+    text-align: right;
+    background-color: rgb(45, 45, 45);
+}
+
+/* #operacao_anterior {
+    width: 210px;
+    height: 20px;
+    padding: 5px;
+    margin: 5px 5px 0 5px;
+    background-color: rgb(45, 45, 45);
+    font-size: 25px;
+    color: #fff;
+    text-align: right;
+    border: none;
+    overflow-wrap: break-word;
+} */
+
+#display {
+    width: 215px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px 5px 15px 5px;
+    background-color: rgb(45, 45, 45);
+    font-size: 25px;
+    color: #fff;
+    text-align: right;
+    border: none;
+    overflow-wrap: break-word;
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 25px;
+    border: none;
+    margin: 3px;
+    cursor: pointer;
+    background-color: rgb(31,31,31);
+    color: #fff;
+}
+
+.botao:hover {
+    background-color: #CCC;
+    font-weight: bold;
+    transition: 500ms;
+}
+
+.botao:active {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: 300ms;
+}
+
+#zerar {
+    color: red;
+}
+
+#operacao {
+    color: green;
+}
+
+#igual {
+    background-color: green;
+}
+
+#igual:hover {
+    background-color: greenyellow;
+}
